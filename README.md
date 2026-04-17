@@ -16,6 +16,14 @@ An end-to-end data analytics project transforming raw movie logs into a professi
 
 ---
 
+## 📊 Interaction Demo
+
+Watching the dashboard update in real-time as filters are applied:
+
+![Slicer Interaction](Images/Slicer_Interaction.gif)
+
+---
+
 ## 🛠️ Technical Stack & Process
 
 ### 1. Data Extraction & Cleaning (Power Query)
@@ -28,11 +36,6 @@ The raw Letterboxd CSV contained "dirty" entries and multi-valued attributes tha
 Established a relational structure to ensure performance and specific data views.
 * **Slicer Logic:** Designed the **Year** and **Rewatch** slicers to dynamically filter the **Movie Ratings** and KPI metrics, allowing for a focused analysis of taste and volume over specific timeframes.
 * **Bridge Cells:** Created a calculation layer to feed dynamic values into the Dashboard KPI shapes based on filtered results.
-
-### 3. Visualizations
-* **Timeline Chart:** Analyzed viewing habits over time with smoothed line vectors for professional presentation.
-* **Doughnut Chart:** Comprehensive breakdown of all-time top genres after normalization.
-* **Bar Charts:** Ranking most-watched directors and visualizing the distribution of user ratings (1.5 to 5.0 stars).
 
 ---
 
@@ -51,5 +54,5 @@ Established a relational structure to ensure performance and specific data views
 │   └── Cinematic_Analysis.xlsx     # Final interactive Excel file
 ├── Images/
 │   ├── Dashboard_Full_Preview.png  # High-res screenshot
-│   └── Dashboard_Demo.gif          # Slicer interaction recording
+│   └── Slicer_Interaction.gif      # Slicer interaction recording
 └── README.md                       # Documentation
